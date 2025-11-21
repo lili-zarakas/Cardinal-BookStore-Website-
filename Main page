@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to CardinalBooks - Your Online Book Sanctuary!</title>
+    <style>
+        /* Basic Web 1.0 Styling */
+        body {
+            background-color: #f0f0f0; 
+            color: #333333; 
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            text-align: center; 
+        }
+        h1 {
+            color: #cc0000; 
+            border-bottom: 2px dashed #333333;
+            padding-bottom: 5px;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #000080; /* Dark Blue */
+        }
+        .main-content {
+            width: 80%;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #ffffff;
+            border: 3px solid #333333; 
+        }
+        /* Navigation Links */
+        .navbar a {
+            color: #0000ff; 
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .navbar a:hover {
+            color: #ff0000; 
+            text-decoration: underline;
+        }
+        /* Table Layout */
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 10px;
+            vertical-align: top;
+            text-align: left;
+        }
+        .sidebar {
+            width: 25%;
+            background-color: #eeeeee;
+            border-right: 1px dashed #333;
+            padding-bottom: 50px; /* Add some space at the bottom */
+        }
+        .footer {
+            margin-top: 20px;
+            padding: 10px;
+            border-top: 2px solid #333;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <p>
+            <a href="index.html">🏡 Home</a> |
+            <a href="about.html">ℹ️ About Us</a> |
+            <a href="contact.html">📧 Contact</a> |
+            <a href="faq.html">❓ F.A.Q.</a>
+        </p>
+        <hr>
+    </div>
+
+    <div class="main-content">
+        <h1>*** Welcome to CardinalBooks Online! ***</h1>
+
+        <table>
+            <tr>
+                <td class="sidebar">
+                    <h2>🔥 Hot Titles!</h2>
+                    <p>
+                        New releases and vintage finds updated **daily**!
+                        <br><br>
+                        <a href="#">Click here for today's special deal!</a>
+                    </p>
+                    <img src="book_gif.gif" alt="Animated spinning book" width="100">
+                    <br><br>
+                    <p>Member Login:<br>
+                       <input type="text" value="Username" size="10"><br>
+                       <input type="password" value="Password" size="10"><br>
+                       <button>LOGIN</button>
+                    </p>
+                </td>
+
+                <td>
+                    <h2>🚀 What's New?</h2>
+                    <p>
+                        Thank you for visiting the official homepage of **CardinalBooks**! We are a family-owned online bookstore specializing in rare, used, and new academic texts. This site is best viewed with **Netscape Navigator** at a resolution of 800x600.
+                    </p>
+                    <p>
+                        **Announcements:**
+                        <marquee behavior="scroll" direction="left">**GRAND OPENING SALE EXTENDED! 10% OFF ALL ORDERS THIS WEEK ONLY!**</marquee>
+                    </p>
+                    
+                    <h2>📚 Featured Book!</h2>
+                    <p>
+                        *The Art of HTML Coding* by A. Webmaster. This essential guide will teach you everything you need to know about making a quality website like this one! **Limited Stock!** Order now!
+                    </p>
+                    <p>
+                        <a href="#">(Order Form Coming Soon!)</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="footer">
+        <p>
+            &copy; 1998-2025 CardinalBooks. All rights reserved. |
+            <a href="mailto:webmaster@cardinalbooks.com">Email the Webmaster</a>
+            <br>
+            <img src="geocities_badge.gif" alt="Geocities badge" width="88" height="31">
+            
+        </p>
+    </div>
+
+</body>
+</html>
